@@ -58,11 +58,11 @@ Code was adapted from <a href="https://www.learnpytorch.io/" target="_blank">Dan
 
 - ***Chest_XRays_Classification_Report.pdf*** :a report describing the experiment and the results obtained.
 
-- ***Chest_XRays_Data_Analysis.ipynb***: Jupyter notebook in which exploratory data analysis was used to summarize main characteristics, assessing class imabalance and looking for missing data/duplicates.
+- ***Chest_XRays_Data_Analysis.ipynb***: Google Colab notebook in which exploratory data analysis was used to summarize main characteristics, assessing class imabalance and looking for missing data/duplicates.
 
-- ***Chest_XRays_Training_and_Evaluation_BatchSize32.ipynb***: Jupyter notebook in which the first part of the experiment was conducted. Models were trained and evaluated, with batch size 32 in dataloaders.
+- ***Chest_XRays_Training_and_Evaluation_BatchSize32.ipynb***: Google Colab notebook in which the first part of the experiment was conducted. Models were trained and evaluated, with batch size 32 in dataloaders.
 
-- ***Chest_XRays_Training_and_Evaluation_BatchSize64.ipynb***: A few models were trained and evaluated using batch size 64.
+- ***Chest_XRays_Training_and_Evaluation_BatchSize64.ipynb***: Google Colab notebook in which a few models were trained and evaluated using batch size 64.
 
 - ***models*** folder: Contains files with the *state_dict* of the models used in the evaluation with the test subset.
 
