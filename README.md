@@ -12,10 +12,15 @@ by Gabriela Copetti
 ## **Summary**
 
 
-<p align="justify">
 
-*All computational steps were performed in Google Collaboratory notebooks, making use of the T4 GPU. Code was adapted from <a href="https://www.learnpytorch.io/" target="_blank">Daniel Bourke’s PyTorch tutorial</a> [1].*
-  
+<p align="center">
+<i> All computational steps were performed in Google Collaboratory notebooks, making use of the T4 GPU. <br>
+Code was adapted from <a href="https://www.learnpytorch.io/" target="_blank">Daniel Bourke’s PyTorch tutorial</a> [1].
+</i>
+</p>
+
+<br>
+<p align="justify">
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Binary image classification models were built and trained in PyTorch using the <a href="https://huggingface.co/datasets/keremberke/chest-xray-classification" target="_blank">Chest X-Rays Classification Dataset</a>, available in Hugging Face [2]. The dataset is divided into train, validation and testing subsets, with 4077, 1165 and 582 images, respectively. Chest X-rays with NORMAL features are labelled as 0, while chest X-rays with PNEUMONIA features are labelled as 1 (see Figure 1).
 </p>
 
@@ -37,6 +42,7 @@ by Gabriela Copetti
 </p>
 
 <br>
+
 > *[1] D. Bourke, "Learn PyTorch for Deep Learning: Zero to Mastery," LearnPyTorch.io. Available: https://www.learnpytorch.io/. [Accessed: Aug. 24, 2024].*
 >
 > *[2] K. Berke, “Chest-xray-classification,” HuggingFace.co, Feb. 22, 2023. Available: https://huggingface.co/datasets/keremberke/chest-xray-classification. [Accessed: Aug. 24, 2024].*
@@ -45,8 +51,6 @@ by Gabriela Copetti
 >
 > *[4] Amazon Web Services (AWS), "What is data augmentation?" [Online]. Available: https://aws.amazon.com/what-is/data-augmentation/. [Accessed: Aug. 24, 2024].*
  
-
-
 <br>
 
 
@@ -68,5 +72,5 @@ by Gabriela Copetti
 
 ## **Setting up environment**
 
-Please open the notebooks in Google Collaboratory. Notebooks contain a "Setting up environment" section which allows the user to install the Python version (3.10), as well as all packages used in this project, directly on the notebook, for better reproducibility. If a different type of installation is desired, a requirements.txt file is also made available here. However, it is not guaranteed that the exact package versions will be available in different channels.
+***Please open the notebooks in Google Collaboratory.*** Notebooks contain a "Setting up environment" section which allows the user to install the Python version (3.10), as well as all packages used in this project, directly on the notebook, for better reproducibility. If a different type of installation is desired, a requirements.txt file is also made available here. However, it is not guaranteed that the exact package versions will be available in different channels.
  
