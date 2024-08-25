@@ -37,13 +37,13 @@ All computational steps were performed in Google Collaboratory notebooks, making
 
 <br>
 
-> *[1]. Hugging Face, "Chest X-ray classification dataset," [Online]. Available: https://huggingface.co/datasets/keremberke/chest-xray-classification. [Accessed: Aug. 24, 2024].*
+> *[1] K. Berke, “Chest-xray-classification,” HuggingFace.co, Feb. 22, 2023. Available: https://huggingface.co/datasets/keremberke/chest-xray-classification. [Accessed: Aug. 24, 2024].*
 >
-> *[2] Thiele, A. J. Windebank, and A. M. Siddiqui, “Motivation for using data-driven algorithms in research: A review of machine learning solutions for image analysis of micrographs in neuroscience,” Journal of Neuropathology & Experimental Neurology, vol. 82, no. 7. Oxford University Press (OUP), pp. 595–610, May 27, 2023. Doi: 10.1093/jnen/nlad040.*
+> *[2] F. Thiele, A. J. Windebank, and A. M. Siddiqui, “Motivation for using data-driven algorithms in research: A review of machine learning solutions for image analysis of micrographs in neuroscience,” Journal of Neuropathology & Experimental Neurology, vol. 82, no. 7. Oxford University Press (OUP), pp. 595–610, May 27, 2023. Doi: 10.1093/jnen/nlad040.*
 >
 > *[3] Amazon Web Services (AWS), "What is data augmentation?" [Online]. Available: https://aws.amazon.com/what-is/data-augmentation/. [Accessed: Aug. 24, 2024].*
 > 
-> *[4]  "Learn PyTorch from the ground up," Learn PyTorch, [Online]. Available: https://www.learnpytorch.io/. [Accessed: Aug. 24, 2024].*
+> *[4] D. Bourke, "Learn PyTorch for Deep Learning: Zero to Mastery," LearnPyTorch.io. Available: https://www.learnpytorch.io/. [Accessed: Aug. 24, 2024].*
 
 <br>
 
