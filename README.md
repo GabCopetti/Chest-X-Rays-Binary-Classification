@@ -41,7 +41,7 @@ classifiers depending on the task at hand.
 <p align="center">
   <img 
     width="500" 
-    src="https://github.com/user-attachments/assets/843a2f3d-5e60-4754-bbdf-a75593d837fd"
+    src="https://github.com/user-attachments/assets/0d95691b-de8c-4be5-902f-228c3b24828b"
     alt="Chest X-rays">
 </p>
 
