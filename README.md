@@ -26,14 +26,22 @@ Code was adapted from <a href="https://www.learnpytorch.io/" target="_blank">Dan
 
 
 <p align="justify">
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Simple models with different sets of hyperparameters were built to investigate how these affect model training and performance. A simple and shallow multilayer perceptron, using two linear layers and ReLU as activation function, was able to give good predictions of pneumonia using chest X-ray images (accuracy ~93%, F1 score 0.95). This class of model showed to be the most consistent, presenting similar metrics independently of applying class weight in the loss function or changing batch size. Within this simple experiment, it outperformed CNN models, which have a more sophisticated architecture. Further tuning of hyperparameters is needed to make use of the CNN’s full potential [3]. Data augmentation, i.e. generation of artificial data, could help to reduce overfitting and class imbalance [4]. Nonetheless, all models, even simple linear neural networks, were able to give descent predictions with accuracy above 90%. This demonstrates the power that even the less complex neural networks have as image classifiers.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Models with varied degrees of architectural complexity and different sets of hyperparameters were built to investigate how these affect model training and performance.  Increase in model architectural complexity did not result in significant increase in performance.
+Multilayer perceptron models, using ReLU as activation function, were the most consistent,
+presenting similar metrics independently of batch size or class weights. F1 score was slightly
+higher for the convolutional neural network once L2 regularization was used to prevent
+overfitting. However, this increase (<+1%) does not compensate for significantly higher
+computational cost (>+20%). Further tuning of the great number hyperparameters [3], as well
+as data augmentation techniques [4], might be needed to make use of the CNN’s full potential.
+Nonetheless, this work demonstrates that even simple neural networks can be powerful image
+classifiers depending on the task at hand.
 </p>
 <br>
 
 <p align="center">
   <img 
     width="500" 
-    src="https://github.com/user-attachments/assets/843a2f3d-5e60-4754-bbdf-a75593d837fd"
+    src="https://github.com/user-attachments/assets/0d95691b-de8c-4be5-902f-228c3b24828b"
     alt="Chest X-rays">
 </p>
 
