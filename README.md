@@ -26,7 +26,15 @@ Code was adapted from <a href="https://www.learnpytorch.io/" target="_blank">Dan
 
 
 <p align="justify">
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Models with varied degrees of architectural complexity and different sets of hyperparameters were built to investigate how these affect model training and performance.  A simple linear model, containing a single hidden layer with 10 nodes, was able to give good predictions of pneumonia using chest X-ray images (accuracy ~93%, F1 score ~ 95%). Increase in model architectural complexity did not result in significant increase in performance. Multilayer perceptron models, using ReLU as activation function, were the most consistent, presenting similar metrics independently of batch size or class weights. F1 score was slightly higher for the Convolutional Neural Network once L2 regularization was used to prevent overfitting (~96%). However, this increase does not compensate for significantly higher computational cost of CNNs. Further tuning of the great number hyperparameters [3], as well as data augmentation techniques [4], might needed to make use of the CNN’s full potential. Nonetheless, this work demonstrates that even simple neural networks can be powerful image classifiers depending on the task at hand.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Models with varied degrees of architectural complexity and different sets of hyperparameters were built to investigate how these affect model training and performance.  Increase in model architectural complexity did not result in significant increase in performance.
+Multilayer perceptron models, using ReLU as activation function, were the most consistent,
+presenting similar metrics independently of batch size or class weights. F1 score was slightly
+higher for the convolutional neural network once L2 regularization was used to prevent
+overfitting. However, this increase (<+1%) does not compensate for significantly higher
+computational cost (>+20%). Further tuning of the great number hyperparameters [3], as well
+as data augmentation techniques [4], might be needed to make use of the CNN’s full potential.
+Nonetheless, this work demonstrates that even simple neural networks can be powerful image
+classifiers depending on the task at hand.
 </p>
 <br>
 
