@@ -26,7 +26,8 @@ Code was adapted from <a href="https://www.learnpytorch.io/" target="_blank">Dan
 
 
 <p align="justify">
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Models with varied degrees of architectural complexity and different sets of hyperparameters were built to investigate how these affect model training and performance.  Increase in model architectural complexity did not result in significant improvement in performance.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Models with varied degrees of architectural complexity and different sets of hyperparameters were built to investigate how these affect model training and performance. Good predictions (accuracy ~93%, F1 score
+~95%), were obtained using relatively simple neural network models.  Increase in model architectural complexity did not result in significant improvement in performance.
 Multilayer perceptron models, using ReLU as activation function, were the most consistent,
 presenting similar metrics independently of batch size or class weights. F1 score was slightly
 higher for the convolutional neural network once L2 regularization was used to prevent
